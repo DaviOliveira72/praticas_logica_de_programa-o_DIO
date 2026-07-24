@@ -1,5 +1,4 @@
 //peimeiro contato
-/*
 torra()
 
 
@@ -11,4 +10,3 @@ function InjetarPao() {
     console.log("Preparando para injetar o Pão...")
     console.log("Finalizado")
 }
-*/
