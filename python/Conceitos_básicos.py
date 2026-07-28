@@ -57,3 +57,22 @@ print(pokemonSexo)
 print(nivelPokemon)
 print(pontosDeVidaPokemon)
 print(selecionavel)
+
+#Vetores e matrizes
+
+nomesPokemon = [
+    "Pikachu",
+    "Charmander",
+    "Bulbassaur"
+]
+
+timePokemon = [
+    ["Pikachu", "M", 1],
+    ["Charmander", "F", 3]
+]
+
+print(
+    "O pokemon", timePokemon[1][0],
+    "é do sexo", timePokemon[1][1],
+    "e está no nível", timePokemon[1][2]
+)

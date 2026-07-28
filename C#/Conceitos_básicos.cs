@@ -68,6 +68,26 @@ class Program
         Console.WriteLine(nivelPokemon);
         Console.WriteLine(pontosDeVidaPokemon);
         Console.WriteLine(selecionavel);
+
+    //Vetores e Matriz
+    string[] nomesPokemon =
+        {
+            "Pikachu",
+            "Charmander",
+            "Bulbassaur"
+        };
+
+    object[,] timePokemon =
+        {
+            {"Pikachu", "M", 1},
+            {"Charmander", "F", 3}
+        };
+
+    Console.WriteLine(
+            "O pokemon " + timePokemon[1,0] +
+            " é do sexo " + timePokemon[1,1] +
+            " e está no nível " + timePokemon[1,2]
+        );
         
     }
 }
