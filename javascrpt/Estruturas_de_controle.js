@@ -101,3 +101,26 @@ do {
 } while(numero < 1 || numero > 10);
 
 console.log(`Você digitou o número ${numero}.`);
+
+
+
+for (let contador = 1; contador <= 5; contador++) {
+  console.log(contador);
+}
+
+
+let dado = 0;
+
+while (dado <= 4) {
+  dado = Math.floor(Math.random() * 6) + 1;
+  console.log("Você tirou um", dado);
+}
+
+
+
+let bolinhosComidos = 0;
+
+do {
+  bolinhosComidos++;
+  console.log("Você comeu", bolinhosComidos, "bolinhos!");
+} while (bolinhosComidos < 5);
